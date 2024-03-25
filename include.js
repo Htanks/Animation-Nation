@@ -2903,8 +2903,15 @@ let cards = [
     author: 'Kalliran',
     githubLink: 'https://github.com/Kalliran'
   },
-];
+ {
+    artName: 'Circle Animation',
+    pageLink: './Art/Htanks/index.html',
+    imageLink: './Art/Htanks/Animation.gif',
+    author: 'Htank',
+    githubLink: 'https://github.com/Htanks'
+  },
 
+]
 /* -------------------------------------------------------------------------- */
 /*                                                                            */
 /*                YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS               */
