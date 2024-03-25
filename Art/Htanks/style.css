@@ -1,0 +1,54 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color:cadetblue;
+}
+
+.trail-container {
+    position: relative;
+}
+
+.animated-element {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #007bff; /* Adjust color as needed */
+    border-radius: 50%;
+    opacity: 0;
+    animation: trailEffect 2s infinite ease-in-out; /* Apply animation */
+}
+
+@keyframes trailEffect {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(3);
+    }
+}
+
+.animated-element:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.animated-element:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animated-element:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+.animated-element:nth-child(4) {
+    animation-delay: 0.6s;
+}
+
+.animated-element:nth-child(5) {
+    animation-delay: 0.8s;
+}
